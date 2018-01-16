@@ -10,7 +10,8 @@ import data from '../api.json';
 import reducer from '../reducers/data'
 
 const initialState = {
-  data: data
+  data: data,
+  search: []
 }
 
 const store = createStore(
